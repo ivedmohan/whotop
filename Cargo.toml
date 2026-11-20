@@ -6,6 +6,7 @@ description = "Who is your computer talking to? A btop-style terminal monitor fo
 license = "MIT"
 repository = "https://github.com/ivedmohan/whotop"
 homepage = "https://github.com/ivedmohan/whotop"
+documentation = "https://whotop.gitbook.io/whotop-docs/"
 readme = "README.md"
 keywords = ["network", "monitor", "tui", "top", "sockets"]
 categories = ["command-line-utilities", "network-programming"]

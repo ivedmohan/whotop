@@ -41,8 +41,9 @@ Options: `--interval <seconds>` (default 1), `--no-hints`.
 
 ## Docs
 
-Full documentation lives in [`docs/`](docs/README.md): installing, reading
-the screen, what every label means, how it works, and troubleshooting.
+Full documentation is at **[whotop.gitbook.io/whotop-docs](https://whotop.gitbook.io/whotop-docs/)**:
+installing, reading the screen, what every label means, how it works, and
+troubleshooting. The source is in [`docs/`](docs/README.md).
 
 ## Keys
 
