@@ -39,6 +39,11 @@ Or grab a binary from the [releases page](https://github.com/ivedmohan/whotop/re
 
 Options: `--interval <seconds>` (default 1), `--no-hints`.
 
+## Docs
+
+Full documentation lives in [`docs/`](docs/README.md): installing, reading
+the screen, what every label means, how it works, and troubleshooting.
+
 ## Keys
 
 | key | action |
