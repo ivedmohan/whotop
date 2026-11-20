@@ -1,0 +1,22 @@
+[package]
+name = "whotop"
+version = "0.1.0"
+edition = "2024"
+description = "Who is your computer talking to? A btop-style terminal monitor focused on network connections, explained in plain English."
+license = "MIT"
+repository = "https://github.com/ivedmohan/whotop"
+readme = "README.md"
+keywords = ["network", "monitor", "tui", "top", "sockets"]
+categories = ["command-line-utilities", "network-programming"]
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
+
+[dependencies]
+anyhow = "1.0.104"
+crossterm = "0.29.0"
+dns-lookup = "4.0.2"
+ratatui = "0.30.2"
+sysinfo = "0.38.4"
