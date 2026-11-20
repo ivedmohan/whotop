@@ -13,14 +13,26 @@ addresses, and wonder what any of it means.
 
 ## Status
 
-Early. Works on macOS today, Linux collector written but untested on real
-hardware. Not packaged yet.
+Early. Works on macOS today. The Linux collector compiles and lists
+connections but has not been tested on real hardware yet.
 
-## Run it
+## Install
+
+macOS or Linux, one line, no sudo:
 
 ```sh
-cargo run --release
+curl -fsSL https://github.com/ivedmohan/whotop/releases/latest/download/whotop-installer.sh | sh
 ```
+
+That downloads the right prebuilt binary for your OS and CPU, checks its
+checksum, and puts it in `~/.local/bin`. Then run `whotop`.
+
+Other ways:
+
+- Grab a binary from the [releases page](https://github.com/ivedmohan/whotop/releases)
+  (Apple Silicon, Intel Mac, Linux x86_64, Linux arm64).
+- With Rust installed: `cargo install --git https://github.com/ivedmohan/whotop`
+- Homebrew tap coming soon.
 
 Options: `--interval <seconds>` (default 1), `--no-hints`.
 
