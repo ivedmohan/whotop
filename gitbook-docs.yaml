@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: whotop
+  structure:
+    - type: space
+      key: docs
+      title: whotop
+      path: ""
+      default: true
+      content:
+        directory: ./docs
+        language: en
