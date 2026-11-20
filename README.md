@@ -29,10 +29,13 @@ checksum, and puts it in `~/.local/bin`. Then run `whotop`.
 
 Other ways:
 
-- Grab a binary from the [releases page](https://github.com/ivedmohan/whotop/releases)
-  (Apple Silicon, Intel Mac, Linux x86_64, Linux arm64).
-- With Rust installed: `cargo install --git https://github.com/ivedmohan/whotop`
-- Homebrew tap coming soon.
+```sh
+brew install ivedmohan/tap/whotop   # Homebrew (macOS or Linux)
+cargo install whotop                 # from crates.io, needs Rust
+```
+
+Or grab a binary from the [releases page](https://github.com/ivedmohan/whotop/releases)
+(Apple Silicon, Intel Mac, Linux x86_64, Linux arm64).
 
 Options: `--interval <seconds>` (default 1), `--no-hints`.
 

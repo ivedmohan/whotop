@@ -1,6 +1,6 @@
 [package]
 name = "whotop"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Who is your computer talking to? A btop-style terminal monitor focused on network connections, explained in plain English."
 license = "MIT"
